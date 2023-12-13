@@ -1,0 +1,130 @@
+body {
+    background-color: #D3C0B1;
+    font-family: 'Arial', sans-serif;
+    color: #8B4513;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #5A6E41;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    padding: 0 20px; 
+    box-sizing: border-box; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header nav a {
+    color: #ffffff80;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
+.photo img {
+    max-width: 30%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 5px; 
+}
+
+.photo p {
+    max-width: 30%; 
+    margin: 0 auto;
+}
+
+.lists ol, .lists ul {
+    text-align: left; 
+}
+
+.video iframe {
+    display: block;
+    margin: 0 auto; 
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #5A6E41; 
+    color: #ffffff80;
+    text-align: center;
+    padding: 10px 20px; 
+    width: calc(100%); 
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    left: 0; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* footer p { 
+    color: #6B8E23;
+    justify-content: center;
+}*/ 
+
+/* footer a {
+    color: #6B8E23;
+    text-decoration: none;
+    align-items: center;
+    padding: 0 5%;
+    justify-content: right;
+    margin-right: 5%;
+} */
+
+#resume-link {
+    color: #ffffff80; 
+    padding-right: 20px;
+    text-decoration: underline;
+}
+
+.lists {
+    margin-bottom: 20px; 
+}
+
+/* .tableauViz {
+    width:100%;
+    max-width: calc(100%-60px);
+    margin: 0 auto; 
+    height: auto;
+} */
+
+/* .tableauPlaceholder {
+    width: 50%;
+    margin: 0 auto; 
+}
+
+.tableauViz {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    overflow: hidden; 
+}
+
+.tableauViz iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} */
+
+.tableauPlaceholder {
+    display: block; /* This sets the element to block, which is what you're looking for */
+    margin: 0 auto; /* This will center the block element in the middle of its parent */
+    max-width: 1440px; /* Set a max-width if needed */
+    margin-bottom: 0px;
+}
